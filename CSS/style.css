@@ -8,47 +8,52 @@ header ,main ,nav ,footer ,section {
     width: 100%;
 }
 
-header {    padding-left: 51px;
-            padding-top: 25px;
-            padding-bottom: 55px;
-            color: white ;
-            background-color: #ED4C5C;   
+header {    
+    padding-left: 51px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    color: white ;
+    background-color: #ED4C5C;   
 }
 
-.mainimg{   display: block;
-            margin-left: 89px;
-            margin-top: 45px;
-            border-radius: 15px;
+.mainimg{   
+    display: block;
+    margin-left: 89px;
+    margin-top: 45px;
+    border-radius: 15px;
 }
 
-#logo{      background-image: url(../icon.png);
-            background-repeat: no-repeat;
-            margin-top: 60.8px;
-            margin-left: 51.45px;
-            background-size: contain;
-            display :block;
+#logo{      
+    background-image: url(../icon.png);
+    background-repeat: no-repeat;
+    margin-top: 60.8px;
+    margin-left: 51.45px;
+    background-size: contain;
+    display :block;
 }
-#logo span{ margin-left:30px;
-            margin-top: 59px;
-            font-size: 18px;
-            width: 152px;
-            line-height: 22px;
-            font-weight: bold;
-            display: block;
-            color: white;
-            text-decoration: none;
+#logo span{ 
+    margin-left:30px;
+    margin-top: 59px;
+    font-size: 18px;
+    width: 152px;
+    line-height: 22px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-decoration: none;
 }
-nav a{  color:#FFFFFF;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        padding: 12px;
-        width:150px;
+nav a{  
+    color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    width:150px;
 }
 nav{    
-        margin-left: -8px;
-        margin-top: 48px;
-        margin-bottom: 49px;
-        display: block;
+    margin-left: -8px;
+    margin-top: 48px;
+    margin-bottom: 49px;
+    display: block;
 }
 
 nav:nth-child(1){
@@ -65,31 +70,33 @@ a:hover{
     color:gray;
 }
 header button{ 
-        height: 50px;
-        width: 160px;
-        margin-top: 45px;
-        margin-left: 51px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 14px;
-        border-radius: 6px;
-        background: #FFFFFF;
-        color:#ED4C5C;
-        border:none;
-        font-family: Arial;
+    height: 50px;
+    width: 160px;
+    margin-top: 45px;
+    margin-left: 51px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color:#ED4C5C;
+    border:none;
+    font-family: Arial;
 }
-.section{   background-color: #FFFFFF;
-            margin-top: 56px;
-            width: 1440px;
-            height: 657px;
+.section{   
+    background-color: #FFFFFF;
+    margin-top: 56px;
+    width: 1440px;
+    height: 657px;
 }
 
-.section h1{width: 445px;
-            height: 89px;
-            padding-left: 50px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-style: normal;
-            font-size: 36px;
+.section h1{
+    width: 445px;
+    height: 89px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 36px;
 }
 
 .LM{  
@@ -100,9 +107,9 @@ header button{
 }
 
 .section p{ 
-            height:83px;
-            width:445px;
-            padding-left: 50px; 
+    height:83px;
+    width:445px;
+    padding-left: 50px; 
 }
 
 .box1{  
@@ -137,47 +144,49 @@ header button{
 } 
 
 .boximga { 
-        width:350px;
-        height:40px;
-        border-radius: 8px;
-        text-align: center;
-        padding-top: 13px;
-        display: inline-table;
-        background-color :white;
-        color: #ED4C5C;
-        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-    }
-
-
-.section2{  background-color:#F5F4F4;
-            height:657px;
+    width:350px;
+    height:40px;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 13px;
+    display: inline-table;
+    background-color :white;
+    color: #ED4C5C;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.section2 h1{   padding: 57px 0px 0px 50px;
-                font-size: 36px;
+
+.section2{  
+    background-color:#F5F4F4;
+    height:657px;
+}
+
+.section2 h1{   
+    padding: 57px 0px 0px 50px;
+    font-size: 36px;
 }
 
 .hobbies{   
-            height: 226px;
-            white-space: nowrap;
-            display: flex;     
+    height: 226px;
+    white-space: nowrap;
+    display: flex;     
 }
 
 .iconGeneral{     
-            background-color: #FFFFFF;
-            display: inline-block;
-            width:255px;
-            height:226px;
-            margin: 56px 30px 271px 30px;
-            background-repeat: no-repeat;
-            text-align: center;
-            font-size:18px;
-            color: black;
-            background-position: center;
+    background-color: #FFFFFF;
+    display: inline-block;
+    width:255px;
+    height:226px;
+    margin: 56px 30px 271px 30px;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size:18px;
+    color: black;
+    background-position: center;
 }
 
 .hobbies h5{   
-    margin-top: 160px;
     font-size: 18px;
 }
 
@@ -186,39 +195,29 @@ header button{
 }
 
 .icon1{     
-            margin-left: 50px;
-            background-image: url("/images/icons8-books-80.png");
-
-}
-.icon2{     
-            background-image: url("/images/icons8-bake-80.png");
-}
-
-.icon3{     background-image: url("/images/icons8-globe-80.png");
-}
-
-.icon4{     background-image: url("/images/icons8-beer-100.png");
+    margin-left: 50px;
 }
 
 footer{     
-            background-color: #ED4C5C;
-            height:80px;
-            padding-top: 29px;
+    background-color: #ED4C5C;
+    height:80px;
+    padding-top: 29px;
 }
 
 footer h3{  
-            margin-left: 80px;
-            color: white;
-            font-size:26px;  
-            display: inline-block;
-  
+    margin-left: 80px;
+    color: white;
+    font-size:26px;  
+    display: inline-block;
+
 }
 
-footer a{   padding: 0px 0px 5px 32px;
-            height: 30px;
-            width: 30x;
-            display: inline-block;
-            background-repeat: no-repeat;
+footer a{   
+    padding: 0px 0px 5px 32px;
+    height: 30px;
+    width: 30x;
+    display: inline-block;
+    background-repeat: no-repeat;
 
 }
 .infoicon{
@@ -226,10 +225,11 @@ footer a{   padding: 0px 0px 5px 32px;
     width: 50px;
     float:left;
 }
-.links{     height: 32px;
-            width: 134x;
-            white-space: nowrap;
-            display: inline-block;
-            padding: 29px 80px 19px 50px;
+.links{     
+    height: 32px;
+    width: 134x;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 29px 80px 19px 50px;
 }
 
